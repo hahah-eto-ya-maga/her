@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    background: #323232;
+}
+
+input[type='text'], input[type='number'] {
+    font-size: 14px;
+    color: rgb(214, 214, 214);
+    background-color: #2d2d2d;
+    padding: 0 10px;
+    border: 0 none black;
+    border-radius: 6px;
+    line-height: 30px;
+    outline: none;
+    box-sizing: border-box;
+    height: 30px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    font-size: 13px;
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    background-position: center;
+    padding: 0 15px;
+    border-style: none;
+    border-radius: 6px;
+    user-select: none;
+    font-style: normal;
+    text-align: center;
+    outline: none;
+    line-height: 34px;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: top;
+    -webkit-appearance: none !important;
+    font-weight: 600;
+    transition: background 0.4s;
+    overflow: hidden;
+    height: 34px;
+    background-color: rgb(34,142,93);
+}
+button:hover {
+    background-color: rgb(36,170,93);
+}
+
+button:disabled {
+    background: #363636;
+    cursor: default;
+}
+
+main {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

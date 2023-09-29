@@ -1,0 +1,44 @@
+.login_form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 0 15px 15px;
+    border: none;
+    border-top: 3px #00ba78 solid;
+    border-radius: 3px;
+    background: #272727;
+    box-shadow: 5px 5px 8px rgb(45, 45, 45);
+}
+
+.login_form input {
+    width: 90%;
+    text-align: center;
+    height: 2px;
+    margin: 0 0 5px;
+}
+
+.login_form button {
+    width: 70%;
+}
+
+.formError {
+    color: #FF6A70;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.authError {
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.login_form p {
+    color: #d6d6d6;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 0 0 5px;
+    text-align: center;
+}

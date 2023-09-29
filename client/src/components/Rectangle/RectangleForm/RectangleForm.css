@@ -1,0 +1,28 @@
+.rectangleForm {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    margin: 0 5px 0;
+    background: #272727;
+}
+
+.operationName {
+    text-align: center;
+    margin: 5px 0;
+    color: #d6d6d6;
+}
+
+.rectangleForm input {
+    width: 171px;
+    margin: 2px 2px 0;
+}
+
+.rectangleForm button {
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    margin: 4px 4px 0 0;
+}
